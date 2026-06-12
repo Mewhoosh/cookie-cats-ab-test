@@ -28,7 +28,8 @@ trivial deviations and CLT guarantees the sampling distribution of the mean
 is normal regardless. We rely on Welch (robust to non-normality at this n)
 and Mann-Whitney (fully non-parametric) instead.
 
-> **DISTRIBUTION**
+<img width="1189" height="390" alt="obraz" src="https://github.com/user-attachments/assets/d2145f0f-b4b5-4e95-98c6-50400b17dfb1" />
+
 
 The `sum_gamerounds` distribution is heavily right-skewed with an extreme
 outlier in `gate_30` (max = 49,854 vs `gate_40` max = 2,640). This is the
@@ -48,7 +49,8 @@ shows a notable disagreement between the mean-based and rank-based tests,
 driven by a single 49,854-round whale in `gate_30` that inflates the mean
 but not the rank distribution.
 
-> **FOREST_PLOT**
+<img width="1189" height="390" alt="obraz" src="https://github.com/user-attachments/assets/edce7522-de33-4087-b1f0-a9e253db2653" />
+
 
 The retention_7 confidence interval lies entirely below zero, visually
 confirming the statistically significant drop. The retention_1 interval
