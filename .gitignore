@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Data (do not commit raw CSV)
+cookie_cats.csv
+
+# Secrets / local
+.env
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Claude / AI assistants
+.claude/
+CLAUDE.md
+.aider*
+.cursor/
